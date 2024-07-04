@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 /*
-    cout<<"Hey harshit Jethi thi side"<<endl;
+    cout<<"Hey harshit Jethi this side"<<endl;
     int a =123;
     cout<<a<<endl;
     char b ='H';
@@ -24,7 +24,7 @@ int main () {
    cout<<ch1<<endl;
   unsigned a=-121;
   cout<<a<<endl;
-  */
+*/
  int a=3,b=4;
  bool first=(a==b);
  cout<<first<<endl;
