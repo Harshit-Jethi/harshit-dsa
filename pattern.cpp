@@ -215,7 +215,7 @@ while(i<=a){
     cout<<endl;
     i=i+1;
 }
-*/
+
 //16
 int a;
 int i=1;
@@ -235,4 +235,75 @@ while(i<=a){
         i=i+1;
     
 }
+*/
+/*
+//17
+int n;
+  int i =1;
+  cin>>n;
+  while(i<=n){ 
+    int star=n-i+1;
+    while (star){
+      cout<<"*";
+      star=star-1;
+    }
+    
+    cout<<endl;
+    i+=1;
+  }
+  */
+  
+  /*
+//18
+int n;
+int i=1;
+cin>>n;
+while(i<=n){
+    int space=n-i;
+    while(space){
+        cout<<" ";
+        space=space-1;
+    }
+    int j=1;
+    while(j<=i){
+        cout<<j;
+        j=j+1;
+    }
+    
+
+int start =i-1;
+while(start){
+    cout<<start;
+    start=start-1;
+}
+cout<<endl;
+    i=i+1;
+}
+*/
+
+  //19
+ int n;
+  int i =1;
+  cin>>n;
+  while(i<=n){ 
+    int start=n-i+1;
+    int count=1;
+    while (start){
+      cout<<count;
+     count=count+1;
+      start=start-1;;
+
+    }
+    int j=2;
+    while(j<=i){
+        cout<<"*";
+        j=j+1;
+    }
+      
+        
+    
+    cout<<endl;
+    i+=1;
+  }
+ 
 }
