@@ -298,12 +298,22 @@ cout<<endl;
     while(j<=i){
         cout<<"*";
         j=j+1;
-    }
-      
-        
+    }  
+    int star2=i-1;
     
-    cout<<endl;
-    i+=1;
+    while(star2){
+        cout<<"*";
+        star2--;
+    }
+         int c=n-i+1;
+         while(c>0){
+            cout<<c;
+            c--;
+         }
+        cout<<endl;
+    i=i+1;
+    }
+    
   }
  
-}
+
